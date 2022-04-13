@@ -5,7 +5,7 @@ import logo from "../starter-code/assets/shared/logo.svg"
 export default function Header() {
   return (
     <>
-    <header>
+    <header className='header'>
         <div>
          <Link to="/">
              <img src={logo} alt="Space Tourism" title="Space Toursim"/>
